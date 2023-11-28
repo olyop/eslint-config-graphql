@@ -1,10 +1,9 @@
 {
-	"extends": "@oly_op",
-	"parserOptions": {
-		"project": "./tsconfig.json"
-	},
-	"rules": {
-		"quote-props": "off",
-		"import/no-import-module-exports": "off"
-	}
+  "extends": "@oly_op",
+  "rules": {
+    "quote-props": "off"
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
