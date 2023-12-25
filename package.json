@@ -1,45 +1,45 @@
 {
-  "private": false,
-  "license": "MIT",
-  "type": "commonjs",
-  "main": "index.js",
-  "version": "1.1.0",
-  "name": "@oly_op/eslint-config-graphql",
-  "description": "@oly_op/eslint-config-graphql",
-  "bugs": "https://github.com/olyop/eslint-config-graphql/issues",
-  "homepage": "https://github.com/olyop/eslint-config-graphql/blob/master/README.md",
-  "author": {
-    "name": "Oliver Plummer",
-    "email": "oliver.plummer@outlook.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/olyop/eslint-config-graphql.git"
-  },
-  "files": [
-    "index.js"
-  ],
-  "volta": {
-    "node": "21.2.0",
-    "npm": "10.2.4"
-  },
-  "scripts": {
-    "clean": "rimraf index.js",
-    "build": "tsc",
-    "postpublish": "npm run push",
-    "push": "git add -A && git commit -m \"Update\" && git push"
-  },
-  "peerDependencies": {
-    "@graphql-eslint/eslint-plugin": "latest"
-  },
-  "devDependencies": {
-    "@oly_op/cspell-dict": "1.1.2",
-    "@oly_op/eslint-config": "6.5.0",
-    "@oly_op/prettier-config": "1.6.0",
-    "@oly_op/tsconfig": "1.2.0",
-    "@graphql-eslint/eslint-plugin": "3.20.1",
-    "@types/node": "20.10.0",
-    "rimraf": "5.0.5",
-    "@typescript-eslint/utils": "6.13.0"
-  }
+	"private": false,
+	"license": "MIT",
+	"type": "commonjs",
+	"main": "index.js",
+	"version": "1.1.0",
+	"name": "@oly_op/eslint-config-graphql",
+	"description": "@oly_op/eslint-config-graphql",
+	"bugs": "https://github.com/olyop/eslint-config-graphql/issues",
+	"homepage": "https://github.com/olyop/eslint-config-graphql/blob/master/README.md",
+	"author": {
+		"name": "Oliver Plummer",
+		"email": "oliver.plummer@outlook.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/olyop/eslint-config-graphql.git"
+	},
+	"files": [
+		"index.js"
+	],
+	"volta": {
+		"node": "21.2.0",
+		"npm": "10.2.4"
+	},
+	"scripts": {
+		"clean": "rimraf index.js",
+		"build": "tsc",
+		"postpublish": "npm run push",
+		"push": "git add -A && git commit -m \"Update\" && git push"
+	},
+	"peerDependencies": {
+		"@graphql-eslint/eslint-plugin": "3.20.1"
+	},
+	"devDependencies": {
+		"@oly_op/cspell-dict": "1.1.2",
+		"@oly_op/eslint-config": "6.5.5",
+		"@oly_op/prettier-config": "1.7.8",
+		"@oly_op/tsconfig": "1.2.0",
+		"@graphql-eslint/eslint-plugin": "3.20.1",
+		"@types/node": "20.10.5",
+		"rimraf": "5.0.5",
+		"@typescript-eslint/utils": "6.15.0"
+	}
 }
