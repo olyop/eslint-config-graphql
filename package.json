@@ -33,13 +33,13 @@
 		"@graphql-eslint/eslint-plugin": "3.20.1"
 	},
 	"devDependencies": {
-		"@oly_op/cspell-dict": "1.1.5",
-		"@oly_op/eslint-config": "6.5.7",
-		"@oly_op/prettier-config": "1.7.9",
-		"@oly_op/tsconfig": "1.2.0",
+		"@oly_op/cspell-dict": "1.1.14",
+		"@oly_op/eslint-config": "6.7.22",
+		"@oly_op/prettier-config": "1.9.5",
+		"@oly_op/tsconfig": "1.2.2",
 		"@graphql-eslint/eslint-plugin": "3.20.1",
-		"@types/node": "20.11.7",
-		"rimraf": "5.0.5",
-		"@typescript-eslint/utils": "6.19.1"
+		"@types/node": "20.14.1",
+		"rimraf": "5.0.7",
+		"@typescript-eslint/utils": "7.12.0"
 	}
 }
